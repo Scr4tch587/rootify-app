@@ -8,9 +8,6 @@ __pycache__/
 venv/
 .env/
 
-# OS-specific
-.DS_Store
-
 # Jupyter
 .ipynb_checkpoints/
 
@@ -18,7 +15,20 @@ venv/
 .vscode/
 
 # Node dependencies
-rootify-app/node_modules/
+rootify-app/server/node_modules/
+rootify-app/my-app/node_modules/
 
-# Vite build output
-rootify-app/dist/
+# Build output
+rootify-app/server/dist/
+rootify-app/my-app/dist/
+rootify-app/my-app/build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+*.env
