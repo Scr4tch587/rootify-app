@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# OS-specific
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code (optional)
+.vscode/
+
+# Node dependencies
+rootify-app/node_modules/
+
+# Vite build output
+rootify-app/dist/
