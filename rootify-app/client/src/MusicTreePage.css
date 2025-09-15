@@ -1,0 +1,17 @@
+.node__root > circle {
+  fill: #1ED760;
+  stroke: #ffffff;
+}
+
+.node__branch > circle {
+  fill: white;
+  stroke: #ffffff;
+}
+
+.node__leaf > circle {
+  fill: green;
+  stroke: #ffffff;
+  stroke-width: 10;
+  /* Let's also make the radius of leaf nodes larger */
+  r: 40;
+}

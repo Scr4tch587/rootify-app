@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Sansation";           
+  src: url("./assets/fonts/Sansation_Bold.ttf") format("truetype");
+  font-weight: normal;       
+  font-style: normal;         
+}
+
+@font-face {
+  font-family: "Monterchi";           
+  src: url("./assets/fonts/Monterchi-Sans-Book-trial.ttf") format("truetype");
+  font-weight: normal;       
+  font-style: normal;         
+}
+
+body {
+  margin: 0;
+  background: #111111;
+  color: white;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* horizontal alignment */
+  align-items: center;      /* vertical alignment */
+  height: 70vh;            /* full viewport height */ 
+}
+
+.child {
+  width: 200px;
+  text-align: center;       /* centers text/content inside */
+  border: 1px solid black;
+}
+
+h1 {
+    font-size: 220px;
+    font-family: "Sansation"
+}
+
+p {
+    font-size: 50px;
+    font-family: "Monterchi"
+}
+
+.rd3t-link {
+  stroke: white !important;
+  stroke-width: 1 !important;
+  fill: none !important;
+}
+
+.rd3t-label text {
+  fill: white !important;        /* SVG color is 'fill', not 'color' */
+  font-family: "Monterchi" !important;
+  font-size: 14px !important;
+}

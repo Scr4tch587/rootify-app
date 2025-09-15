@@ -1,0 +1,171 @@
+{
+    "nodes": [
+        {
+            "id": "Tyler, The Creator"
+        },
+        {
+            "id": "Pharrell Williams"
+        },
+        {
+            "id": "Eminem"
+        },
+        {
+            "id": "N.E.R.D"
+        },
+        {
+            "id": "The Neptunes"
+        },
+        {
+            "id": "Wu-Tang Clan"
+        },
+        {
+            "id": "Crosby"
+        },
+        {
+            "id": "Stills & Nash"
+        },
+        {
+            "id": "Moody Blues"
+        },
+        {
+            "id": "Daft Punk"
+        },
+        {
+            "id": "Joni Mitchell"
+        },
+        {
+            "id": "The Beatles"
+        },
+        {
+            "id": "Jefferson Airplane"
+        },
+        {
+            "id": "Grateful Dead"
+        },
+        {
+            "id": "Santana"
+        },
+        {
+            "id": "The Byrds"
+        },
+        {
+            "id": "Buffalo Springfield"
+        },
+        {
+            "id": "The Hollies"
+        },
+        {
+            "id": "Bob Dylan"
+        },
+        {
+            "id": "Fleetwood Mac"
+        },
+        {
+            "id": "Michael Jackson"
+        },
+        {
+            "id": "Steely Dan"
+        },
+        {
+            "id": "Pink Floyd"
+        },
+        {
+            "id": "Led Zeppelin"
+        }
+    ],
+    "links": [
+        {
+            "source": "Tyler, The Creator",
+            "target": "Pharrell Williams"
+        },
+        {
+            "source": "Tyler, The Creator",
+            "target": "Eminem"
+        },
+        {
+            "source": "Tyler, The Creator",
+            "target": "N.E.R.D"
+        },
+        {
+            "source": "Tyler, The Creator",
+            "target": "The Neptunes"
+        },
+        {
+            "source": "Tyler, The Creator",
+            "target": "Wu-Tang Clan"
+        },
+        {
+            "source": "N.E.R.D",
+            "target": "Crosby"
+        },
+        {
+            "source": "N.E.R.D",
+            "target": "Stills & Nash"
+        },
+        {
+            "source": "N.E.R.D",
+            "target": "Moody Blues"
+        },
+        {
+            "source": "N.E.R.D",
+            "target": "Daft Punk"
+        },
+        {
+            "source": "Crosby",
+            "target": "Joni Mitchell"
+        },
+        {
+            "source": "Crosby",
+            "target": "The Beatles"
+        },
+        {
+            "source": "Crosby",
+            "target": "Jefferson Airplane"
+        },
+        {
+            "source": "Crosby",
+            "target": "Grateful Dead"
+        },
+        {
+            "source": "Crosby",
+            "target": "Santana"
+        },
+        {
+            "source": "Stills & Nash",
+            "target": "The Byrds"
+        },
+        {
+            "source": "Stills & Nash",
+            "target": "Buffalo Springfield"
+        },
+        {
+            "source": "Stills & Nash",
+            "target": "The Hollies"
+        },
+        {
+            "source": "Stills & Nash",
+            "target": "Bob Dylan"
+        },
+        {
+            "source": "Daft Punk",
+            "target": "Fleetwood Mac"
+        },
+        {
+            "source": "Daft Punk",
+            "target": "Michael Jackson"
+        },
+        {
+            "source": "Daft Punk",
+            "target": "Steely Dan"
+        },
+        {
+            "source": "Daft Punk",
+            "target": "Pink Floyd"
+        },
+        {
+            "source": "Daft Punk",
+            "target": "Led Zeppelin"
+        }
+    ],
+    "artist": "Tyler, The Creator"
+}

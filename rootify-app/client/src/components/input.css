@@ -1,0 +1,31 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline-input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Monterchi';
+  font-size: 3rem;
+  color: white;
+  position: relative; /* for hidden span measurement */
+}
+
+.inline-textbox {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  caret-color: #1ED760;
+  margin-left: 0.15ch;
+}
+
+.inline-text-measure {
+  font-family: inherit;
+  font-size: inherit;
+}
