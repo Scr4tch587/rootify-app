@@ -4,13 +4,16 @@ from google.genai import Client
 import re
 import sys
 import json
+from dotenv import load_dotenv
+import os
+
+email = os.getenv("USER_AGENT")
+client = Client(api_key=os.getenv("API_KEY"))
 
 wiki = wikipediaapi.Wikipedia(
     language='en',
-    user_agent='RootifyBot/0.1 (k318zhang@gmail.com)'
+    user_agent='RootifyBot/0.1 ({email})'
 )
-
-client = Client(api_key="AIzaSyBpfO0r0hW1nfZZBnq75x4h01NmAQf_yJc")
 
 KEYWORDS = [
     "Influences",
